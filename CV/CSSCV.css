@@ -1,0 +1,185 @@
+
+
+/* Définir une police de caractère et une couleur de fond pour tout le document */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('télécharger\ \(7\).jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Centrer le contenu du header et du footer */
+header, footer {
+    text-align: center;
+}
+
+/* Ajouter une bordure et une marge au header */
+header {
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 20px;
+}
+
+/* Ajouter une bordure et une marge au footer */
+footer {
+    border-top: 1px solid #cccccc;
+    margin-top: 20px;
+}
+
+/* Définir la taille et la couleur du titre principal */
+h1 {
+    font-size: 36px;
+    color: #333333;
+}
+
+/* Définir la taille et la couleur du titre secondaire */
+h2 {
+    font-size: 24px;
+    color: #666666;
+}
+
+/* Définir la taille et la couleur des titres de section */
+h3 {
+    font-size: 18px;
+    color: #333333;
+}
+
+/* Définir la taille et la couleur des titres de sous-section */
+h4 {
+    font-size: 16px;
+    color: #666666;
+}
+
+/* Définir la taille et la couleur du texte normal */
+p {
+    font-size: 14px;
+    color: #333333;
+}
+
+/* Définir la taille et la couleur des listes */
+ul {
+    font-size: 14px;
+    color: #333333;
+}
+
+/* Définir la largeur et la hauteur de la photo */
+#photo img {
+    width: 200px;
+    height: 200px;
+}
+
+/* Aligner la photo et le texte à gauche */
+#photo {
+    display: flex;
+    align-items: center;
+}
+
+/* Ajouter une marge à la photo */
+#photo img {
+    margin-right: 20px;
+}
+
+/* Ajouter une marge aux sections */
+section {
+    margin: 20px;
+}
+
+/* Ajouter un style aux liens */
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+/* Ajouter un style aux liens survolés */
+a:hover {
+    color: #666666;
+    text-decoration: underline;
+}
+.facebook {
+    width: 20px ;
+    position: relative;
+    top: 35px;
+    left: -25px;
+}
+.puces {
+    list-style-type: none;
+}
+.twitter {
+    width: 20px ;
+    position: relative;
+    top: 70px;
+    left: -50px;
+}
+.contacts {
+    list-style-type: none;
+    text-align: left;
+}
+#mail {
+    width: 20px ;
+    position: relative;
+    top: 33px;
+    left: -700px;
+}
+#whatsapp {
+    width: 20px ;
+    position: relative;
+    top: 70px;
+    left: -725px;
+}
+#competence {
+    position: relative;
+    width: 550px;
+    height: 90px;
+    background: white;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    color: white;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+    background-color: beige;
+}
+#domaine {
+    position: relative;
+    width: 210px;
+    height: 80px;
+    background: white;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    color: white;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+    background-color: beige;
+}
+#formation {
+    position: relative;
+    width: 700px;
+    height: 260px;
+    background: white;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    color: white;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+    background-color: beige;
+}
+#certification {
+    position: relative;
+    width: 190px;
+    height: 90px;
+    background: white;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    color: white;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+    background-color: beige;
+}
+#hobbie {
+    position: relative;
+    width: 280px;
+    height: 70px;
+    background: white;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    color: white;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+    background-color: beige;
+}
+#description {
+   font-size: 20px;
+}
